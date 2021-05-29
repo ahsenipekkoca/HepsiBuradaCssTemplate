@@ -1,0 +1,240 @@
+﻿body {
+    margin: 0px 0px 0px 0px;
+    background-color: #e5e5e5;
+    padding-bottom: 300px;
+    font-family: 'Segoe UI';
+}
+
+#DivHeaderContainer {
+    width: 100%;
+    height: 110px;
+    background-color: #fff;
+}
+
+#DivHeader {
+    width: 960px;
+    height: 110px;
+    margin: 0px auto;
+}
+
+#DivHeaderUst {
+    width: 700px;
+    height: 30px;
+    padding-left: 260px;
+}
+
+.DivHeaderUstItem {
+    width: auto;
+    height: 22px;
+    float: left;
+    font-size: 9pt;
+    color: #808080;
+    padding: 8px 12px 0px 0px;
+}
+
+#DivMenuContainer {
+    width: 100%;
+    height: 60px;
+    background-color: #ff8600;
+}
+
+#DivLogo {
+    width: 260px;
+    height: 62px;
+    float: left;
+    padding-top: 18px;
+}
+
+#DivSearch {
+    width: 300px;
+    height: 64px;
+    float: left;
+    padding-top: 16px;
+}
+
+#txtSearch {
+    width: 226px;
+    height: 30px;
+    border: 1px solid #919191;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    float: left;
+    padding-left: 14px;
+}
+
+#btnAra {
+    width: 50px;
+    height: 34px;
+    background-color: #919191;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #919191;
+    color: #fff;
+    float: left;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#DivSepet {
+    width: 330px;
+    height: 70px;
+    float: left;
+    padding: 10px 0px 0px 70px;
+}
+
+.SepetButtons {
+    width: 110px;
+    height: 32px;
+    background-color: #fff;
+    color: #919191;
+    border: 2px solid #9f9f9f;
+    border-radius: 4px;
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+    padding-top: 8px;
+}
+
+    .SepetButtons.Reverse {
+        background-color: #9f9f9f;
+        color: #fff;
+        border: 2px solid #9f9f9f;
+    }
+
+#DivMenu {
+    width: 960px;
+    height: 60px;
+    margin: 0px auto;
+}
+
+.DivMenuItem {
+    width: 96px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    float: left;
+    font-size: 10pt;
+    padding-top: 20px;
+}
+
+    .DivMenuItem:hover {
+        background-color: #fff;
+        color: #ff8600;
+        cursor: pointer;
+    }
+#Asama{
+    width:960px;
+    height:50px;
+    float:left;
+    margin-left:300px;
+    margin-top:5px;
+    font-size:9pt;
+    font-weight:bold;
+    color:#808080;
+}
+#UrunFoto{
+    margin-left:300px;
+    float:left;
+    width:600px;
+    height:900px;
+    background-color:#fff;
+}
+#ozellik{
+    margin-left:10px;
+    font-size:9pt;
+    line-height:12pt;
+}
+#UrunBilgileri{
+    width:500px;
+    margin-left:5px;
+    height:900px;
+    float:left;
+    background-color:#f5f5f5;
+}
+.DivEkstraIndirim {
+    width: 195px;
+    height: 40px;
+    margin: 15px 0px;
+    padding-left: 5px;
+    line-height: 12pt;
+}
+.EkstraIndirimKirmizi {
+    color: #fff;
+    background-color:#ff0000;
+    width:64px;
+    height:56px;
+    font-size:14pt;
+    font-weight: bold;
+    line-height:25px;
+    margin-left:12px;
+    text-align:center;
+}
+
+.EkstraIndirim {
+    width:120px;
+    height:80px;
+    color: #404040;
+    font-size: 10pt;
+    font-weight: bold;
+    float:left;
+    margin-left:90px;
+    margin-top:-70px;
+}
+#paket{
+    width:480px;
+    height:120px;
+    margin:10px 10px 0px 10px;
+    border-radius:4px;
+    background-color:#ddd;
+}
+#Divnavbar{
+    background-color:#777272;
+    color:#fff;
+    width:1100px;
+    height:70px;
+    margin-top:1000px;
+    margin-left:300px;
+}
+#DivMenuNavbar {
+    width: 1100px;
+    height: 40px;
+    margin: 0px auto;
+}
+.DivMenuItemNavbar {
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    float: left;
+    font-size: 10pt;
+    padding-top: 20px;
+}
+    .DivMenuItemNavbar:hover {
+        background-color: #fff;
+        color: #ff8600;
+        cursor: default;
+    }
+.Tablo {   
+    border-collapse: collapse;
+    margin:0px 120px 0px 300px;
+}
+
+    .Tablo td, .Tablo th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .Tablo tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .Tablo tr:hover {
+        background-color: #ddd;
+    }
+
+    .Tablo th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #9f9f9f;
+        color: white;
+    }

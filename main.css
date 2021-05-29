@@ -1,0 +1,205 @@
+﻿body {
+    margin: 0px;
+    background-color: #e5e5e5;
+    padding-bottom: 300px;
+    font-family: 'Segoe UI';
+}
+
+#DivHeaderContainer {
+    width: 100%;
+    height: 110px;
+    background-color: #fff;
+}
+
+#DivHeader {
+    width: 960px;
+    height: 110px;
+    margin: 0px auto;
+}
+
+#DivHeaderUst {
+    width: 700px;
+    height: 30px;
+    padding-left: 260px;
+}
+
+.DivHeaderUstItem {
+    width: auto;
+    height: 22px;
+    float: left;
+    font-size: 9pt;
+    color: #808080;
+    padding: 8px 12px 0px 0px;
+}
+
+#DivMenuContainer {
+    width: 100%;
+    height: 60px;
+    background-color: #ff8600;
+}
+
+#DivLogo {
+    width: 260px;
+    height: 62px;
+    float: left;
+    padding-top: 18px;
+}
+
+#DivSearch {
+    width: 300px;
+    height: 64px;
+    float: left;
+    padding-top: 16px;
+}
+
+#txtSearch {
+    width: 226px;
+    height: 30px;
+    border: 1px solid #919191;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    float: left;
+    padding-left: 14px;
+}
+
+#btnAra {
+    width: 50px;
+    height: 34px;
+    background-color: #919191;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #919191;
+    color: #fff;
+    float: left;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#DivSepet {
+    width: 330px;
+    height: 70px;
+    float: left;
+    padding: 10px 0px 0px 70px;
+}
+
+.SepetButtons {
+    width: 110px;
+    height: 32px;
+    background-color: #fff;
+    color: #919191;
+    border: 2px solid #9f9f9f;
+    border-radius: 4px;
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+    padding-top: 8px;
+}
+
+    .SepetButtons.Reverse {
+        background-color: #9f9f9f;
+        color: #fff;
+        border: 2px solid #9f9f9f;
+    }
+
+#DivMenu {
+    width: 960px;
+    height: 60px;
+    margin: 0px auto;
+}
+
+.DivMenuItem {
+    width: 96px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    float: left;
+    font-size: 10pt;
+    padding-top: 20px;
+}
+
+    .DivMenuItem:hover {
+        background-color: #fff;
+        color: #ff8600;
+        cursor: pointer;
+    }
+
+
+#DivMainBanner {
+    width: 960px;
+    height: 360px;
+    margin: 15px auto 0px auto;
+}
+
+#DivFirsatContainer {
+    width: 960px;
+    height: 400px;
+    margin: 15px auto 0px auto;
+    background-color: #fff;
+}
+#DivBeyazEsya {
+    width: 100px;
+    height: 2000px;
+    float:left;
+}
+#DivBolunmus {
+    width: 160px;
+    height: 200px;
+    float:left;
+}
+
+#DivFirsatBaslik {
+    width: 960px;
+    height: 37px;
+    text-align: center;
+    border-bottom: 1px solid #919191;
+    font-size: 18px;
+    font-weight: bold;
+    color:#919191;
+    padding-top:12px;
+}
+
+.DivFirsatContainer {
+    width: 200px;
+    height:310px;
+    padding:20px;
+    float:left;
+}
+
+.DivFirsatPhoto {
+    width:200px;
+    height:180px;
+    text-align:center;
+}
+
+#DivUcluContainer {
+    width: 960px;
+    height: 220px;
+    margin: 15px auto 0px auto;
+}
+
+.DivFirsatItem {
+    width: 300px;
+    height: 220px;
+    float: left;
+    margin-right: 30px;
+}
+
+.DivFirsatItem.Nomargin {
+     margin-right: 0px;
+}
+
+#DivFooterContainer {
+    width: 100%;
+    height: 160px;
+    background-color: #306357;
+    margin-top: 15px;
+}
+
+#DivFooter {
+    width: 960px;
+    height: 160px;
+    margin: 0px auto;
+    background-color: #d88e8e;
+}
+
+

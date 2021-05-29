@@ -1,0 +1,244 @@
+﻿body {
+    margin: 0px;
+    background-color: #e5e5e5;
+    font-family: 'Segoe UI';
+    margin-bottom:500px;
+}
+#DivHeaderContainer {
+    width: 100%;
+    height: 110px;
+    background-color: #fff;
+}
+
+#DivHeader {
+    width: 960px;
+    height: 110px;
+    margin: 0px auto;
+}
+
+#DivHeaderUst {
+    width: 700px;
+    height: 30px;
+    padding-left: 260px;
+}
+
+.DivHeaderUstItem {
+    width: auto;
+    height: 22px;
+    float: left;
+    font-size: 9pt;
+    color: #808080;
+    padding: 8px 12px 0px 0px;
+}
+#DivLogo {
+    width: 260px;
+    height: 62px;
+    float: left;
+    padding-top: 18px;
+}
+
+#DivSearch {
+    width: 300px;
+    height: 64px;
+    float: left;
+    padding-top: 16px;
+}
+
+#txtSearch {
+    width: 226px;
+    height: 30px;
+    border: 1px solid #919191;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    float: left;
+    padding-left: 14px;
+}
+
+#btnAra {
+    width: 50px;
+    height: 34px;
+    background-color: #919191;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #919191;
+    color: #fff;
+    float: left;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#DivSepet {
+    width: 330px;
+    height: 70px;
+    float: left;
+    padding: 10px 0px 0px 70px;
+}
+
+.SepetButtons {
+    width: 110px;
+    height: 32px;
+    background-color: #fff;
+    color: #919191;
+    border: 2px solid #9f9f9f;
+    border-radius: 4px;
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+    padding-top: 8px;
+}
+
+    .SepetButtons.Reverse {
+        background-color: #9f9f9f;
+        color: #fff;
+        border: 2px solid #9f9f9f;
+    }
+.DivUyari{
+        width:760px;
+        height:120px;
+        background-color:#fff;
+        margin-top:20px;
+        font-size:9pt;
+        color:#919191;
+        margin-left:100px;
+}
+#UyariYer {
+    top: -6px;
+    right: -14px;
+    width: 16px;
+    height: 16px;
+    font: 700 11px/16px Arial,Helvetica,"Helvetica Neue",sans-serif;
+
+}
+#yuvarlama {
+    background-color: #f28b00;
+    color: #fff;
+    text-align: center;
+    border-radius: 9px;
+}
+#MesaGizle {
+    color:#fff;
+    font-weight:bold;
+    float: right;
+    margin:15px 15px 0px 15px;
+    background-color: #9f9f9f;
+}
+#GirisUyari {
+    margin: 20px 0px 0px 100px;
+    font-size: 10pt;
+    color: black;
+    background-color: #fff;
+    width: 760px;
+    height: 40px;
+    border-left: 4px solid;
+    border-left-color: #f28b00;
+    border-left-width:4px;
+}
+#DivSepetim {
+    width: 760px;
+    height: 800px;
+    background-color: #fff;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-left: 4px solid;
+    border-left-color: #f28b00;
+    border-left-width: 4px;
+}
+.Urun {
+    width: 760px;
+    height: 80px;
+}
+.SiparisDetay {
+    width: 300px;
+    height: 80px;
+    margin-left: 100px;
+    font-size: 9pt;
+    float: left;
+    margin-top:-80px;
+    font-weight:bold;
+}
+#SiparisOzeti{
+   width:250px;
+   height:250px;
+   float:right;
+   background-color:#fff;
+   margin-right:320px;
+   margin-top:20px;
+}
+.AlisverisTamamlaButon {
+    font-weight: bold;
+    font-size: 12pt;
+    background-color: #f28b00;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 170px;
+    margin-left: 30px;
+    width: 200px;
+    height: 70px;
+    text-align:center;
+}
+#Tutar {
+    width: 250px;
+    height: 150px;
+    float: right;
+    margin-right: -250px;
+    margin-top: 270px;
+}
+#Cek {
+    width: 250px;
+    height: 40px;
+    float: right;
+    background-color: #fff;
+    margin-right: -250px;
+    margin-top: 420px;
+    text-align:center;
+}
+.urunAciklama{
+    color:#919191;
+    font-size:11pt;
+    float:right;
+    margin-right:5px;
+    margin-top:10px;
+}
+#btnSil{
+    margin-left:80px;
+    width:30px;
+    height:30px;
+    background-color:#e0e0e0;
+    color:#919191;
+    font-size:9pt;
+    text-align:center;
+    border:0px;
+    padding-top:0px;
+}
+#Adet{
+    margin-left:675px;
+    margin-top:-620px;
+}
+#Adet2 {
+ margin-left:675px;
+ margin-top:280px;
+}
+#AdetNud {
+width:30px;
+}
+#AdetNud2 {
+    width: 30px;
+}
+#Fiyat {
+    font-size:10pt;
+    color:#919191;
+    font-weight:bold;
+    float:left;
+    margin-left:760px;
+    margin-top:-380px;
+    text-align:right;
+}
+#Fiyat2 {
+    font-size: 10pt;
+    color: #919191;
+    font-weight: bold;
+    float: left;
+    margin-left: 760px;
+    margin-top: -100px;
+    text-align: right;
+}

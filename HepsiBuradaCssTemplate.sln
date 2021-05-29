@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE1ECB00-F3CC-485D-85DB-CE629A7DEC10}"
+	ProjectSection(SolutionItems) = preProject
+		1.png = 1.png
+		2.png = 2.png
+		3.png = 3.png
+		4.png = 4.png
+		5.png = 5.png
+		6.png = 6.png
+		7.png = 7.png
+		banner.PNG = banner.PNG
+		bootstrap.min.css = bootstrap.min.css
+		btn.PNG = btn.PNG
+		detay.css = detay.css
+		detay.html = detay.html
+		f1.png = f1.png
+		f2.png = f2.png
+		f3.png = f3.png
+		Home.html = Home.html
+		iph.jpg = iph.jpg
+		kart.PNG = kart.PNG
+		logo.PNG = logo.PNG
+		main.css = main.css
+		renk.PNG = renk.PNG
+		sams.jpg = sams.jpg
+		samsung.jpg = samsung.jpg
+		siparis.css = siparis.css
+		Siparis.html = Siparis.html
+		yildiz.PNG = yildiz.PNG
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88D09C81-85C7-4475-92D9-A574453F6F7E}
+	EndGlobalSection
+EndGlobal

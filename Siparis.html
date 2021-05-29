@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="siparis.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+</head>
+<body>
+    <div id="DivHeaderContainer">
+        <div id="DivHeader">
+            <div id="DivHeaderUst">
+                <div class="DivHeaderUstItem">Siparislerim</div>
+                <div class="DivHeaderUstItem">Günün Firsatlari</div>
+                <div class="DivHeaderUstItem">Hediye Ceklerim</div>
+                <div class="DivHeaderUstItem">Tek Tikla Alisveris</div>
+                <div class="DivHeaderUstItem">Kampanyalar</div>
+                <div class="DivHeaderUstItem">Girişimci Kadınlar</div>
+                <div class="DivHeaderUstItem">Girişimci Kadınlar</div>
+            </div>
+            <div id="DivLogo">
+                <img src="logo.png" />
+            </div>
+            <div id="DivSearch">
+                <input type="text" id="txtSearch" placeholder="Kulaklıklarda inanilmaz indirimler" />
+                <input type="button" value="ARA" id="btnAra" />
+            </div>
+            <div id="DivSepet">
+                <div class="SepetButtons"><i class="fa fa-shopping-basket"></i> Sepetim</div>
+                <div class="SepetButtons Reverse"><i class="fa fa-power-off"></i> Giriş Yap</div>
+            </div>
+        </div>
+    </div>
+    <div id="SiparisOzeti">
+        <h3 style="float:right;color:#f28b00;margin-right:5px;">Sipariş Özeti</h3>
+        <p style="float:right;margin-left:180px;margin-right:5px;margin-top:-20px;">2 ürün</p>
+        <p style="color:#919191;font-size:9pt;margin-right:5px;float:right;">Ödenecek Tutar</p>
+        <h1 style="font-weight:bold;float:right;margin-top:-15px;">8.732,99 TL</h1>
+        <div class="AlisverisTamamlaButon"><br />Alışverişi Tamamla <i class="fa fa-chevron-right"></i></div>
+    </div>
+    <div id="Tutar">
+        <p class="urunAciklama">Ürünler Toplamı (KDV Dahil) </p>
+        <h2 style="font-weight:bold;float:right;margin-top:-15px;">8.732,99 TL</h2><br /><br /><br />
+        <p class="urunAciklama" style="float:right;margin-right:-130px;"><i class="fa fa-info-circle"></i> Kargo Ücreti </p><br />
+        <s class="urunAciklama" style="margin-right:-100px;font-weight:bold;">7.90 TL</s><br /><br />
+        <h2 style="font-weight:bold;float:right;margin-top:-15px;">0.0 TL</h2>
+    </div>
+    <div id="Cek">Çek / Promosyon Kodu Kullan</div>
+    <div class="DivUyari">
+        <span id="MesaGizle"><i class="fa fa-chevron-up"></i>Mesajları Gizle</span>
+        <i class="fa fa-bell" id="" style="margin-top:5px;margin-left:20px;font-size:18px;"><span id="yuvarlama"><span id="UyariYer"></span></span></i><br />
+        <h3 style="margin-left:35px;">Uyarı</h3>
+        <ol>
+            <li>Samsung Galaxy S8 (Samsung Türkiye Garantili) isimli üründen dolayı sepetinizde kredi kartı ile taksit yapılamayacaktır.</li>
+            <li>Apple iPhone X 64 GB (Apple Türkiye Garantili) isimli üründen dolayı sepetinizde kredi kartı ile taksit yapılamayacaktır.</li>
+        </ol>
+    </div>
+
+    <div id="GirisUyari">
+        <p style="margin-top:20px;margin-left:15px;">
+            Sepetinizi kaydetmek için
+            <b style="color:#f28b00;">giriş yapın.</b>
+        </p>
+    </div>
+    <div id="DivSepetim">
+        <div>
+            <h1 style="color:#f28b00;margin-left:20px;">Sepetim</h1>
+            <span style="float:right;margin-right:20px;color:#919191;">FİYAT</span>
+            <span style="float:right;margin-right:100px;color:#919191;">ADET</span><br />
+            <hr style="margin-left:15px;margin-right:15px;" />
+        </div>
+        <div class="Urun">
+            <div style="margin-top:50px;">
+                <img src="sams.jpg" width="80" height="80" />
+                <!--<img src="iph.jpg" width="80" height="80" />-->
+            </div>
+            <div>
+                <div class="SiparisDetay">
+                    Samsung Galaxy S8 (Samsung Türkiye Garantili)
+                    (64 GB Altın)
+                </div>
+                <div style="color:#919191;margin-left:80px;">
+                    <b>Satıcı :</b>
+                    <span style="color:#f28b00;font-weight:600;">SAMSUNG</span>
+                </div>
+                <div style="margin-left:80px;color:#919191;font-size:10pt;">
+                    <i style="color:#f28b00;font-size:18px;" class="fa fa-clock-o"></i>
+                    Bugün Kargoda!
+                </div>
+                <p style="margin-left:80px;color:#919191;font-size:10pt;">100 TL ve üzeri alışverişlerde kargo bedava!</p>
+                <input type="button" id="btnSil" value="Sil" /><br /><br />
+                <hr style="margin-left:15px;margin-right:15px;" />
+            </div>
+            <div class="Urun">
+                <div style="margin-top:50px;">
+                    <img src="iph.jpg" width="80" height="80" />
+                </div>
+                <div>
+                    <div class="SiparisDetay">
+                        Apple iPhone X 64 GB (Apple Türkiye Garantili)
+                    </div>
+                    <div style="color:#919191;margin-left:80px;">
+                        <b>Satıcı :</b>
+                        <span style="color:#f28b00;font-weight:600;">APPLE</span>
+                    </div>
+                    <div style="margin-left:80px;color:#919191;font-size:10pt;">
+                        <i style="color:#f28b00;font-size:18px;" class="fa fa-clock-o"></i>
+                        Bugün Kargoda!
+                    </div>
+                    <p style="margin-left:80px;color:#919191;font-size:10pt;">100 TL ve üzeri alışverişlerde kargo bedava!</p>
+                    <input type="button" id="btnSil" value="Sil" /><br /><br />
+                    <hr style="margin-left:15px;margin-right:15px;" />
+                </div>
+                <input type="button" value="Alışverişe Devam Et" style="margin:40px;
+height:40px;margin-left:40px;background-color:#e0e0e0;color:#919191;border:0px;" />
+            </div>
+        </div>
+    </div>
+    <div id="Adet">
+        <input type="number" min="0" value="0" id="AdetNud" />
+    </div>
+    <div id="Adet2">
+        <input type="number" min="0" value="0" id="AdetNud2" />
+    </div>
+    <div id="Fiyat">
+        <p><s>3.999,00</s></p>
+        <p style="color:black;font-size:12pt;">2.789,00 TL</p>
+        <p style="color:green;">Kargo Bedava!</p>
+    </div>
+    <div id="Fiyat2">
+        <p><s>6.099,00 TL</s></p>
+        <p style="color:black;font-size:12pt;">5.399,89 TL</p>
+        <p style="color:green;">Kargo Bedava!</p>
+    </div>
+</body>
+</html>
